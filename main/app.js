@@ -74,6 +74,12 @@ app.get('/students', async (req, res) => {
 app.post('/students', async (req, res) => {
     try{
         // TODO
+     
+        //   res.status(400).json({"message" :"body is missing"})
+        //  res.status(400).json({"message" :"malformed request"})
+        
+    
+        
     }
     catch(err){
         console.warn(err.stack)
